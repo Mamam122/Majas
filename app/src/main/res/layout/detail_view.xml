@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/majas_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/app_name"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginRight="@dimen/activity_right_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textSize="25sp"
+            android:layout_marginStart="@dimen/activity_left_margin"
+            android:layout_marginEnd="@dimen/activity_right_margin" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/gambar_detail"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="@dimen/activity_left_margin"
+                android:layout_marginRight="@dimen/activity_right_margin"
+                android:background="@color/white"
+                android:layout_marginStart="@dimen/activity_left_margin"
+                android:layout_marginEnd="@dimen/activity_right_margin" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/pengertiann"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginRight="@dimen/activity_right_margin"
+            android:text="@string/pengertiann"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:layout_marginEnd="@dimen/activity_right_margin"
+            android:layout_marginStart="@dimen/activity_left_margin" />
+        <TextView
+            android:id="@+id/pengertian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginRight="@dimen/activity_right_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:hint="@string/pengertian"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="@dimen/activity_right_margin"
+            android:layout_marginStart="@dimen/activity_left_margin" />
+
+        <TextView
+            android:id="@+id/contohh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginRight="@dimen/activity_right_margin"
+            android:text="@string/contohh"
+            android:textSize="20sp"
+            android:textColor="@color/gray"
+            android:layout_marginEnd="@dimen/activity_right_margin"
+            android:layout_marginStart="@dimen/activity_left_margin" />
+
+        <TextView
+            android:id="@+id/contoh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_left_margin"
+            android:layout_marginRight="@dimen/activity_right_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:hint="@string/contoh"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginEnd="@dimen/activity_right_margin"
+            android:layout_marginStart="@dimen/activity_left_margin" />
+    </LinearLayout>
+</ScrollView>
